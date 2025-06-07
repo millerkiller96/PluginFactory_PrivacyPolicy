@@ -258,71 +258,24 @@ function App() {
             </div>
           </div>
 
-          {/* Retention */}
-          <div className="mb-12">
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-black mb-4">Data Retention</h3>
+          {/* Contact Section */}
+          <div className="bg-gray-50 rounded-xl p-8">
+            <div className="text-center">
+              <div className="bg-pink-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Mail className="w-6 h-6 text-pink-600" />
+              </div>
+              <h3 className="text-xl font-semibold text-black mb-4">Questions About This Policy?</h3>
               <p className="text-gray-700 mb-4">
-                We retain personal information only for as long as necessary to fulfill the purposes outlined 
-                in this Privacy Policy, comply with legal obligations, resolve disputes, and enforce our agreements.
+                If you have any questions about this Privacy Policy or our data practices, please contact us at:
               </p>
-              <p className="text-gray-700">
-                When you uninstall our extensions or request deletion of your data, we will delete or anonymize 
-                your personal information within a reasonable timeframe, subject to legal and technical constraints.
-              </p>
+              <p className="text-black font-semibold">soulmedia.agency.fl@gmail.com</p>
             </div>
-          </div>
-
-          {/* International Transfers */}
-          <div className="mb-12">
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-black mb-4">International Data Transfers</h3>
-              <p className="text-gray-700">
-                Your information may be transferred to and processed in countries other than your own. 
-                We ensure that such transfers are conducted in accordance with applicable data protection 
-                laws and implement appropriate safeguards to protect your information.
-              </p>
-            </div>
-          </div>
-
-          {/* Changes to Policy */}
-          <div className="mb-12">
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-black mb-4">Changes to This Privacy Policy</h3>
-              <p className="text-gray-700 mb-4">
-                We may update this Privacy Policy from time to time. When we make changes, we will:
-              </p>
-              <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Update the "Last Updated" date at the beginning of this policy</li>
-                <li>Notify users of material changes through our extensions or via email</li>
-                <li>Provide a prominent notice on our website</li>
-                <li>Maintain previous versions for reference when required by law</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section className="bg-black text-white py-12">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="bg-gray-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Mail className="w-8 h-8 text-pink-400" />
-          </div>
-          <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-          <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-            If you have any questions about this Privacy Policy or our data practices, 
-            please don't hesitate to contact us.
-          </p>
-          <div className="bg-gray-800 rounded-lg p-6 max-w-md mx-auto">
-            <p className="text-gray-300 mb-2">Email us at:</p>
-            <p className="text-white font-semibold text-lg">soulmedia.agency.fl@gmail.com</p>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-8">
+      <footer className="bg-black text-white py-8">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <div className="bg-pink-500 p-1.5 rounded">
@@ -330,9 +283,8 @@ function App() {
             </div>
             <span className="font-semibold">Plugin Factory</span>
           </div>
-          <p className="text-sm">
-            © {new Date().getFullYear()} Plugin Factory. All rights reserved. 
-            Building innovative micro-niche solutions with privacy and security at the forefront.
+          <p className="text-gray-400 text-sm">
+            © {new Date().getFullYear()} Plugin Factory. All rights reserved.
           </p>
         </div>
       </footer>
