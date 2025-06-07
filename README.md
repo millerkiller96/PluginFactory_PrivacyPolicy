@@ -4,7 +4,7 @@ A clean, professional privacy policy website for Plugin Factory Chrome extension
 
 ## Quick Setup for GitHub Pages
 
-1. **Create a new repository** named exactly: `Pluginfactory_privacypolicy`
+1. **Create a new repository** named exactly: `privacy-policy`
 
 2. **Upload all these files** to your new repository
 
@@ -15,7 +15,7 @@ A clean, professional privacy policy website for Plugin Factory Chrome extension
 
 4. **Push to main branch** - the site will automatically deploy
 
-Your site will be available at: `https://yourusername.github.io/Pluginfactory_privacypolicy/`
+Your site will be available at: `https://Plugin-factory-fl.github.io/privacy-policy/`
 
 ## Local Development
 
